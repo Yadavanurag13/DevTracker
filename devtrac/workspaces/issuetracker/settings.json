@@ -1,8 +1,40 @@
 {
     "version": "1.0.0",
-    "modules": [],
-    "app_routes": [],
-    "package_routes": [],
+    "modules": [
+        {
+            "name": "issue",
+            "path": "issue"
+        }
+    ],
+    "app_routes": [
+        {
+            "re_path": "^issue/",
+            "module": "issue",
+            "url": "urls"
+        }
+    ],
+    "package_routes": [
+        {
+            "re_path": "^crud/",
+            "package": "crud",
+            "url": "urls"
+        },
+        {
+            "re_path": "^frame/",
+            "package": "frame",
+            "url": "urls"
+        },
+        {
+            "re_path": "^login/",
+            "package": "login",
+            "url": "urls"
+        },
+        {
+            "re_path": "^workflow/",
+            "package": "workflow",
+            "url": "urls"
+        }
+    ],
     "app_name": "issuetracker",
     "zango_version": ">=0.4.1"
 }
