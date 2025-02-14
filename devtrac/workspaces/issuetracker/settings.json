@@ -1,0 +1,8 @@
+{
+    "version": "1.0.0",
+    "modules": [],
+    "app_routes": [],
+    "package_routes": [],
+    "app_name": "issuetracker",
+    "zango_version": ">=0.4.1"
+}
