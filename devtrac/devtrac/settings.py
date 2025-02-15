@@ -44,3 +44,15 @@ SECRET_KEY = "django-insecure-6fjr+2ki7t4jdsgqtm^0mxb9fqnyn^e0lc-m!$pt5l4nec)8!t
 
 # INTERNAL_IPS can contain a list of IP addresses or CIDR blocks that are considered internal.
 # Both individual IP addresses and CIDR notation (e.g., '192.168.1.1' or '192.168.1.0/24') can be provided.
+CELERY_BROKER_URL = 'redis://localhost:6379/0'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'yadavanurag1310@gmail.com'
+EMAIL_HOST_PASSWORD = 'jjtk yvzz xxhh oznw'
