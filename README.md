@@ -10,6 +10,18 @@ A modern issue tracking system built with Django and Zango framework, designed f
 - Custom field support
 - Advanced search and filtering
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./img_assets/screenshot1.png" width="400" alt="Dashboard View"/>
+  <br>
+  <em>Dashboard View</em>
+  <br><br>
+  <img src="./img_assets/screenshot2.png" width="400" alt="Issue Management"/>
+  <br>
+  <em>Issue Management Interface</em>
+</p>
+
 ## 🛠 Tech Stack
 
 - **Backend**: Django 4.2+, Zango Framework
@@ -105,7 +117,19 @@ Start the development server:
 python manage.py runserver
 ```
 
-Access the Admin Panel at: `http://localhost:8000/platform`
+# 🎥 Demo
+
+[![Watch the demo video](https://img.youtube.com/vi/Pv-UzllukOU/maxresdefault.jpg)](https://youtu.be/Pv-UzllukOU)
+
+Click the image above to watch the demo video!
+
+## 🔑 Demo Credentials
+
+### Admin Panel
+- **Email**: admin@zango.com
+- **Password**: Zango@13
+
+Access the admin panel at: `http://localhost:8000/platform`
 
 Access the Application at: `http://issuetracker.com:8000/login`
 
